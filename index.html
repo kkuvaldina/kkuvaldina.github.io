@@ -1,273 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Portfolio</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
-		/>
-		<link type="text/css" rel="stylesheet" href="css/style.css" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link rel="stylesheet" href="css/animations.css" />
-		<link rel="shortcut icon" type="image/png" href="img/icon.png" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
-	</head>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
 
-	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button
-						type="button"
-						class="navbar-toggle"
-						data-toggle="collapse"
-						data-target="#myNavbar"
-					>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#myPage">
-						<strong>Kseniia Kuvaldina</strong>
-					</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a onclick="clickMenu()" href="#myPage">HOME</a></li>
-						<li><a onclick="clickMenu()" href="#about">ABOUT</a></li>
-						<li><a onclick="clickMenu()" href="#projects">PROJECTS</a></li>
-						<li><a onclick="clickMenu()" href="#contact">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<section class="container home animatedParent">
-			<div class="home-header text-center animated pulse">
-				<h2 class="text-center">Hello, I'm Kseniia Kuvaldina.</h2>
-				<a onclick="clickMenu()" href="#about" class="btn btn-primary btn-lg"
-					>View My Work <span class="glyphicon glyphicon-arrow-right"></span
-				></a>
-			</div>
-		</section>
-		<section class="container text-center" id="about">
-			<div class="row animatedParent">
-				<div class="col-lg-9 animated bounceInLeft">
-					<h3 class="text-center">About</h3>
-					<p class="text-center">
-						Originally from Russia, I moved to the United States in 2017. I'm
-						currently working as an Implementation specialist at a software
-						company in Lehi. I'm also a student at SLCC from Fall 2018. My
-						hobbies are programming, photography, and traveling. I really like
-						hiking and exploring National Parks around. My favorites are Arches
-						Park and Bryce Canyon so far. <br />I'm working on Computer Science
-						and Information System degree because I like new technologies. After
-						SLCC I want to transfer to UVU to continue working on my bachelor
-						degree.
-					</p>
-				</div>
-				<div class="col-lg-3 animated bounceInRight">
-					<img
-						class="img-fluid float-right me rounded-circle"
-						src="img/me1.jpg"
-						alt="Me"
-					/>
-				</div>
-			</div>
-		</section>
-		<section id="projects">
-			<div class="bg-1-projects">
-				<h3 class="text-center">My Projects</h3>
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="container-img">
-							<a href="https://kkuvaldina.github.io/weather/" target="_blank"
-								><img
-									src="img/weather-app.jpg"
-									alt="website view"
-									class="img-thumbnail img-project"
-							/></a>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage">
+            <strong>Kseniia Kuvaldina</strong>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a onclick="clickMenu()" href="#myPage">HOME</a></li>
+            <li><a onclick="clickMenu()" href="#about">ABOUT</a></li>
+            <li><a onclick="clickMenu()" href="#projects">PROJECTS</a></li>
+            <li><a onclick="clickMenu()" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container home animatedParent">
+      <div class="home-header text-center animated pulse">
+        <h2 class="text-center">Hello, I'm Kseniia Kuvaldina.</h2>
+        <a onclick="clickMenu()" href="#about" class="btn btn-primary btn-lg"
+          >View My Work <span class="glyphicon glyphicon-arrow-right"></span
+        ></a>
+      </div>
+    </section>
+    <section class="container text-center" id="about">
+      <div class="row animatedParent">
+        <div class="col-lg-9 animated bounceInLeft">
+          <h3 class="text-center">About</h3>
+          <p class="text-center">
+            Originally from Russia, I moved to the United States in 2017. I'm
+            currently working as an Implementation specialist at a software
+            company in Lehi. I'm also a student at SLCC from Fall 2018. My
+            hobbies are programming, photography, and traveling. I really like
+            hiking and exploring National Parks around. My favorites are Arches
+            Park and Zion so far. <br />I'm working on Computer Science and
+            Information System degree because I like new technologies. After
+            SLCC I'm going to transfer to UVU to continue working on my bachelor
+            degree.
+          </p>
+        </div>
+        <div class="col-lg-3 animated bounceInRight">
+          <img
+            class="img-fluid float-right me rounded-circle"
+            src="img/me1.jpg"
+            alt="Me"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="bg-1-projects">
+        <h3 class="text-center">My Projects</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="container-img">
+              <a
+                href="https://kkuvaldina.github.io/recipes-app/"
+                target="_blank"
+                ><img
+                  src="img/recipes-app.png"
+                  alt="website view"
+                  class="img-thumbnail img-project"
+              /></a>
 
-							<div class="overlay">
-								<div>Weather App</div>
-								<a
-									href="https://kkuvaldina.github.io/weather/"
-									target="_blank"
-									class="btn btn-primary"
-									>LEARN MORE</a
-								>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="container-img">
-							<a href="https://kkuvaldina.github.io/ToDoList/" target="_blank"
-								><img
-									src="img/ToDoList.jpg"
-									alt="website view"
-									class="img-thumbnail img-project"
-							/></a>
+              <div class="overlay">
+                <div>Recipes App</div>
+                <a
+                  href="https://kkuvaldina.github.io/recipes-app/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="container-img">
+              <a href="https://kkuvaldina.github.io/weather/" target="_blank"
+                ><img
+                  src="img/weather-app.jpg"
+                  alt="website view"
+                  class="img-thumbnail img-project"
+              /></a>
 
-							<div class="overlay">
-								<div>To Do List</div>
-								<a
-									href="https://kkuvaldina.github.io/ToDoList/"
-									target="_blank"
-									class="btn btn-primary"
-									>LEARN MORE</a
-								>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="container-img">
-							<a
-								href="https://kkuvaldina.github.io/tic-tac-toe/"
-								target="_blank"
-								><img
-									src="img/Tic_Tac_Toe.jpg"
-									alt="website view"
-									class="img-thumbnail img-project"
-							/></a>
+              <div class="overlay">
+                <div>Weather App</div>
+                <a
+                  href="https://kkuvaldina.github.io/weather/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="container-img">
+              <a href="https://kkuvaldina.github.io/ToDoList/" target="_blank"
+                ><img
+                  src="img/ToDoList.jpg"
+                  alt="website view"
+                  class="img-thumbnail img-project"
+              /></a>
 
-							<div class="overlay">
-								<div>Tic Tac Toe</div>
-								<a
-									href="https://kkuvaldina.github.io/tic-tac-toe/"
-									target="_blank"
-									class="btn btn-primary"
-									>LEARN MORE</a
-								>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-						<div class="container-img">
-							<img
-								src="img/FitnessCalculator.jpg"
-								alt="website view"
-								class="img-thumbnail img-project"
-							/>
-							<div class="overlay">
-								<div>Fitness Calculator</div>
-								<button
-									type="button"
-									data-toggle="modal"
-									data-target="#fitnessModalCenter"
-									class="btn btn-primary"
-								>
-									LEARN MORE
-								</button>
-							</div>
-							<!-- Modal -->
-							<div
-								class="modal fade"
-								id="fitnessModalCenter"
-								tabindex="-1"
-								role="dialog"
-								aria-labelledby="fitnessModalTitle"
-								aria-hidden="true"
-							>
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="fitnessModalTitle">
-												Fitness Calculator
-											</h5>
-											<button
-												type="button"
-												class="close"
-												data-dismiss="modal"
-												aria-label="Close"
-											>
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											<img src="img/Fitness.gif" />
-										</div>
-										<div class="modal-footer">
-											<button
-												type="button"
-												class="btn btn-secondary"
-												data-dismiss="modal"
-											>
-												Close
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="container animatedParent" id="contact">
-				<h3 class="text-center animated fadeInDown">Contact</h3>
-				<p class="text-center contact-p animated fadeInDown">
-					<em>Have a question or want to work together? </em>
-				</p>
-				<div class="row animated fadeInDown">
-					<div class="col-md-12 form-text">
-						<p class="text-center">
-							<span class="glyphicon glyphicon-map-marker"></span>Salt Lake
-							City, Utah
-						</p>
-						<p class="text-center">
-							<span class="glyphicon glyphicon-envelope"></span>Email:
-							kuvaldina.ks@gmail.com
-						</p>
-						<p class="text-center">
-							<span class="glyphicon glyphicon-phone"></span>Phone:
-							+(385)4993830
-						</p>
-					</div>
-				</div>
-				<footer class="text-center">
-					<a
-						class="up-arrow"
-						href="#myPage"
-						data-toggle="tooltip"
-						title="TO TOP"
-					>
-						<span class="glyphicon glyphicon-chevron-up"></span>
-					</a>
-					<div class="social">
-						<a href="https://www.instagram.com/kuvaldina_kseniia/"
-							><img src="img/icon.svg" alt="Instagram"
-						/></a>
-						<a href="https://www.facebook.com/profile.php?id=100007802235409"
-							><img src="img/facebook-logo.svg" alt="Facebook"
-						/></a>
+              <div class="overlay">
+                <div>To Do List</div>
+                <a
+                  href="https://kkuvaldina.github.io/ToDoList/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="container-img">
+              <a
+                href="https://kkuvaldina.github.io/tic-tac-toe/"
+                target="_blank"
+                ><img
+                  src="img/Tic_Tac_Toe.jpg"
+                  alt="website view"
+                  class="img-thumbnail img-project"
+              /></a>
 
-						<a href="https://www.linkedin.com/in/kseniia-kuvaldina-9964aa163"
-							><img src="img/linkedin-logo.svg" alt="LinkedIn"
-						/></a>
-					</div>
-					<p class="text-center">Kseniia Kuvaldina @2019</p>
-				</footer>
+              <div class="overlay">
+                <div>Tic Tac Toe</div>
+                <a
+                  href="https://kkuvaldina.github.io/tic-tac-toe/"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >LEARN MORE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <div class="container-img">
+              <img
+                src="img/FitnessCalculator.jpg"
+                alt="website view"
+                class="img-thumbnail img-project"
+              />
+              <div class="overlay">
+                <div>Fitness Calculator</div>
+                <button
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#fitnessModalCenter"
+                  class="btn btn-primary"
+                >
+                  LEARN MORE
+                </button>
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="fitnessModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="fitnessModalTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="fitnessModalTitle">
+                        Fitness Calculator
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="img/Fitness.gif" />
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container animatedParent" id="contact">
+        <h3 class="text-center animated fadeInDown">Contact</h3>
+        <p class="text-center contact-p animated fadeInDown">
+          <em>Have a question or want to work together? </em>
+        </p>
+        <div class="row animated fadeInDown">
+          <div class="col-md-12 form-text">
+            <p class="text-center">
+              <span class="glyphicon glyphicon-map-marker"></span>Salt Lake
+              City, Utah
+            </p>
+            <p class="text-center">
+              <span class="glyphicon glyphicon-envelope"></span>Email:
+              kuvaldina.ks@gmail.com
+            </p>
+            <p class="text-center">
+              <span class="glyphicon glyphicon-phone"></span>Phone:
+              +(385)4993830
+            </p>
+          </div>
+        </div>
+        <footer class="text-center">
+          <a
+            class="up-arrow"
+            href="#myPage"
+            data-toggle="tooltip"
+            title="TO TOP"
+          >
+            <span class="glyphicon glyphicon-chevron-up"></span>
+          </a>
+          <div class="social">
+            <a href="https://www.instagram.com/kuvaldina_kseniia/"
+              ><img src="img/icon.svg" alt="Instagram"
+            /></a>
+            <a href="https://www.facebook.com/profile.php?id=100007802235409"
+              ><img src="img/facebook-logo.svg" alt="Facebook"
+            /></a>
 
-				<script>
-					$(document).ready(function () {
-						// Initialize Tooltip
-						$('[data-toggle="tooltip"]').tooltip();
-					});
-				</script>
-			</div>
-		</section>
-		<script src="js/css3-animate-it.js"></script>
-	</body>
+            <a href="https://www.linkedin.com/in/kseniia-kuvaldina-9964aa163"
+              ><img src="img/linkedin-logo.svg" alt="LinkedIn"
+            /></a>
+          </div>
+          <p class="text-center">Kseniia Kuvaldina @2019</p>
+        </footer>
+
+        <script>
+          $(document).ready(function () {
+            // Initialize Tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+          });
+        </script>
+      </div>
+    </section>
+    <script src="js/css3-animate-it.js"></script>
+  </body>
 </html>
